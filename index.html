@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calendar-container">
+        <h1>Calendar Application</h1>
+        <div class="controls">
+            <button id="prev-month">&lt; Previous Month</button>
+            <button id="next-month">Next Month &gt;</button>
+            <button id="prev-day">&lt; Previous Day</button>
+            <button id="next-day">Next Day &gt;</button>
+        </div>
+        <div id="month-year" class="month-year-display"></div>
+        <table id="calendar-table">
+            <thead>
+                <tr>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+            </thead>
+            <tbody id="calendar-body"></tbody>
+        </table>
+        <button id="save-bookings">Download Bookings</button>
+    </div>
+    <script src="calendar.js"></script>
+</body>
+</html>
+
